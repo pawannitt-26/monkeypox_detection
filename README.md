@@ -1,7 +1,3 @@
-Sure! Here's a more detailed and complete version of the **Monkeypox Detection Model** project documentation:
-
----
-
 # Monkeypox Detection Model
 
 This project aims to develop a machine learning model for detecting **Monkeypox**, **Chickenpox**, and other skin diseases like **Measles** and **Normal** (healthy skin) using image classification techniques. The model leverages data preprocessing, augmentation, and a combination of machine learning and deep learning approaches for classification.
@@ -28,9 +24,13 @@ The project is structured to ensure modularity, scalability, and maintainability
 ```
 monkeypox_detection/
 ├── notebooks/                        # Jupyter notebooks for experiments
-│   ├── deep_learning_model.ipynb     # Deep learning approach
-│   ├── machine_learning_model.ipynb  # Machine learning approaches (KNN, SVM, XGBoost)
-│   └── proposed_model.ipynb          # Combination and hybrid model
+│   ├── deep_learning_model           # Deep learning approach
+│   ├── machine_learning_model        # Machine learning approaches (KNN, SVM, XGBoost)
+│   └── proposed_model                # Combination and hybrid model
+|
+├── results/                          # Results directory
+│   ├── models/                       # Saved model checkpoints
+│   └── plots/                        # Plots of training curves, confusion matrix, etc.
 │
 ├── src/                          # Source code
 │   ├── data/                     # Dataset directory
@@ -39,11 +39,6 @@ monkeypox_detection/
 │   │   ├── validation/           # Validation data split
 │   │   └── test/                 # Test data split
 │   └── config.py                 # Configuration settings like paths and hyperparameters
-│  
-│
-├── results/                  # Results directory
-│   ├── models/               # Saved model checkpoints
-│   └── plots/                # Plots of training curves, confusion matrix, etc.
 │
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # Documentation (this file)
@@ -81,7 +76,7 @@ These augmentations help prevent overfitting and improve model generalization.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/monkeypox_detection.git
+git clone https://github.com/pawannitt-26/monkeypox_detection.git
 cd monkeypox_detection
 ```
 
