@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+*.log
+*.out
+
+# data
+data/
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# System Files
+.DS_Store
+*.bak
+*.swp
+
+# Models and Results
+results/models/
+results/plots/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
